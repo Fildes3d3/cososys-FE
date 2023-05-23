@@ -1,0 +1,42 @@
+header {
+    background-color: #F0F0F2;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    height: 40px;
+    display: block;
+    width: auto;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    border: none;
+    text-transform: uppercase;
+}
+
+#secondaryNavbarContainer {
+    padding: 0;
+}
+
+#navToggle {
+    display: none;
+}
+
+@media only screen and (max-width: 830px) {
+    #productLink {
+        display: none
+    }
+
+    #navToggle {
+        display: flex;
+        border: none;
+    }
+}

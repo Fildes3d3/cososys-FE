@@ -1,0 +1,34 @@
+<div class="contact-form-wrapper">
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="submit.php" method="post">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" pattern="[A-Za-z ]+" placeholder="Your name (required)" required>
+                <label for="name">Your name (required)</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Your email (required)" required>
+                <label for="email">Your email (required)</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" id="message" maxlength="500"  placeholder="Your message"></textarea>
+                <label for="message">Your message</label>
+            </div>
+
+            <div class="form-field">
+                <button type="submit" class="btn btn-primary js-submit-button">Send message</button>
+            </div>
+        </form>
+
+        <button type="submit" class="btn btn-primary re-submit-button hidden js-new-submit-button">Send another message</button>
+    </div>
+</div>
+
+<div id="myModal" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"></div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>

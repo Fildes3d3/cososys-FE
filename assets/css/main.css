@@ -1,0 +1,9 @@
+@import "header.css";
+@import "slider.css";
+@import "product-presentation.css";
+@import "contact-form.css";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
