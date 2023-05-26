@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  cososys.local:
+    image: nginx:1.11.10
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - .:/app
+    ports:
+      - 80:80
